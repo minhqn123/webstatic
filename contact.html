@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Serene Spa</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<script src="https://use.fontawesome.com/f2ce09f30e.js"></script>
+</head>
+
+<body>
+<div id="container">
+
+<div id="header">
+
+<div id="logo">
+<a href="index.html"><img src="images/logo.png" alt="Serene Spa logo"></a>
+</div> <!-- closing logo div -->
+
+<div id="nav">
+<ul>
+	<li><a href="index.html">Home</a></li> 
+	<li><a href="#about">About Us</a></li>
+	<li><a href="services.html">Services</a></li>
+	<li><a href="#giftcard">Gift Card</a></li>
+	<li><a class="active" href="contact.html">Contact</a></li>
+</ul>
+</div> <!-- closing nav div -->
+
+<div id="banner2">
+<img src="images/contact_banner.png" alt="Serene Spa banner">
+</div> <!-- closing banner div -->
+
+</div> <!-- closing header div -->
+
+<div id="wrapper2">
+
+<div class="col5">
+<h2>Contact</h2>
+<form name="form2" action="" method="post">
+<p><label for="fullname">Your Name (Required) :</label><br />
+<input type="text" id="fullname" />
+</p>
+<p>
+<label for="contact">Email (Required) :</label><br />
+<input type="text" id="contact" />
+</p>
+<p>
+<label for="category">Category :</label><br />
+<select id="category" name="category">
+<option value="billingsupport">Billing Support</option>
+<option value="other">Other inquiry</option>
+<option value="suggestion">Suggestion</option>
+</select>
+</p>
+<p>
+<label for="subject">Subject :</label><br />
+<textarea id="subject"></textarea>
+</p>
+<p>
+<label for="message">Message :</label><br />
+<textarea id="message"></textarea>
+</p>
+<p class="btn">
+<input type="reset" id="reset" value="RESET" /><input type="submit" id="submit" value="SUBMIT" />
+</p>
+</form>
+</div> <!-- closing first col div -->
+
+<div class="col6">
+<p><strong>VISIT SERENE SPA AT</strong><br>
+10 Park Ave, Winter Park, FL 32789<br><br>  
+
+<strong>TELEPHONE:</strong> 407-098-0009<br> 
+<strong>TOLL FREE:</strong> 1-800-033-4300<br><br>
+
+Book your appointment or e-mail us at <strong>info@serenspa.com</strong><br><br>  
+
+<strong>DRIVING DIRECTIONS</strong></p>
+
+<div id="mapFrame">
+<div id="map"></div><!-- closing map div -->
+</div><!-- closing map frame div -->
+
+<p><strong>HOURS :</strong><br>  
+<em>BY APPOINTMENT ONLY</em><br> 
+<strong>Tuesdays</strong> | 9:30 a.m. – 5:00 p.m.<br> 
+<strong>Wednesdays</strong> | 9:30 a.m. – 7:00 p.m.<br> 
+<strong>Thursdays</strong> | 9:30 a.m. – 7:00 p.m.<br> 
+<strong>Fridays</strong> | 9:30 a.m. – 6:00 p.m.<br> 
+<strong>Saturdays</strong> | 9:30 a.m. – 4:00 p.m.<br><br> 
+
+<strong>FOR THE COMFORT OF OUR GUEST NO CHILDREN UNDER THE AGE OF 13 YEARS</strong></p>
+</div> <!-- closing second col div -->
+
+</div> <!-- closing wrapper div -->
+
+<div id="footer">
+
+<div id="footerLeft">
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#about">About Us</a></li>
+	<li><a href="services.html">Services</a></li>
+	<li><a href="#giftcards">Gift Cards</a></li>
+	<li><a href="contact.html">Contact</a></li>
+    <li><a href="#facilities">facilities</a></li>
+</ul>
+</div> <!-- closing footer left div -->
+
+<div id="footerMiddle">
+<ul>
+	<li><a href="#rates">Rates</a></li>
+	<li><a href="#revservations">Reservations</a></li>
+	<li><a href="#news">New and Promos</a></li>
+	<li><a href="#policy">Policy</a></li>
+	<li><a href="#terms">Terms</a></li>
+    <li><a href="#faqs">FAQS</a></li>
+</ul>
+</div> <!-- closing footer middle div -->
+
+<div id="footerRight">
+
+<div id="subscribe">
+<img src="images/subscribe.png" alt="subcribe botton">
+</div> <!-- closing subscribe button div -->
+
+<div id="socialImage">
+<a href="index.html"><img src="images/fb.png" alt="fbimage"></a> <a href="index.html"><img src="images/twitter.png" alt="twitterimage"></a> <a href="index.html"><img src="images/intagram.png" alt="instagramimage"></a>
+</div> <!-- closing social image div -->
+
+<p>Call us directly: <strong>1-800-003-4300</strong> <i class="fa fa-phone fa-fw" aria-hidden="true"></i><br><br>
+
+10 Park Ave, Winter Park, FL 32792 <br><br>
+
+<strong>view on the map</strong> <i class="fa fa-search fa-fw" aria-hidden="true"></i></p>
+
+</div> <!-- closing footer right div -->
+
+</div> <!-- closing footer div -->
+
+</div> <!-- closing container div -->
+
+<script src="js/googlemap.js"></script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCkSo8TvMvRW2tNrI6aa5MC7mUVjG11TY&callback=initMap">
+</script>
+</body>
+</html>
